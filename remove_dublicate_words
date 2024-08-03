@@ -1,0 +1,14 @@
+def remove_dublicate_words(words):
+
+    mylist = words.split(" ")
+    my_set = set(mylist)
+    for word in my_set:
+        my_list.append(word)
+    my_list.sort()
+    print(my_list)
+
+
+if __name__ == '__main__':
+    words = input("Enter words: ")
+    my_list=[]
+    remove_dublicate_words(words)
